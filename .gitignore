@@ -1,0 +1,7 @@
+.DS_Store
+*.zip
+*__pycache__
+*node_modules
+src/server/mosquitto/data/*
+src/server/mosquitto/log/*
+src/server/frontend/yarn.lock

@@ -1,0 +1,9 @@
+# Don't unnecessarily copy over unneeded files...
+
+# Only used by host machine
+Dockerfile
+startup_docker_container.sh
+
+# We'll let the Python inside the container
+# compile its own .pyc files
+*__pycache__*

@@ -1,0 +1,8 @@
+# Specify Python packages (that is, items
+# we normally must install manually using
+# pip install <package>) to be automatically
+# installed inside the Docker container
+
+stripe   # for payment processing
+requests # for making requests to Stripe API and our server
+paho-mqtt # for message queueing for automated updates and healthchecks

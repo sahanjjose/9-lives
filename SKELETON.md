@@ -1,0 +1,3 @@
+In order to have a minimal version of the tech stack, we need to demonstrate that we can input from the vendor-side CLI that we want to restock something, the database updates appropriately via the backend, and that the customer-side CLI, when requesting information, receives updated database information.
+
+A simple demo includes the vendor adding 1 of some new product and the customer seeing that new product as an option.

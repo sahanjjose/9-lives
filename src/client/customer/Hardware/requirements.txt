@@ -1,0 +1,6 @@
+gpiod==1.5.4
+gpiozero==2.0.1
+lgpio==0.2.2.0
+rgpio==0.2.2.0
+RPi.GPIO2==0.3.0a3
+setuptool==78.1.0

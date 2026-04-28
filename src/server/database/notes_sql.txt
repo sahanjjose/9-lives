@@ -1,0 +1,32 @@
+--TODO pare down requirments & make gant table
+--    integrate python vending machine restock
+--        implement users
+--            login
+--        implement orgs [x]
+--        implement GUI  [x]
+--        implement `groups`
+--        assign sahanj a page
+--            need figma to get him to implement stuff
+--    health check for VM [x]
+--    if stripe cannot be done vm shuts down 
+--    distance req: org item subset, group subet
+--    atm the all users should be able to make a new item
+--    strip connect distrubution of payments
+--         talk to diego about stripe tags
+--    time stamps on item, profit, logs (transactions, resock)
+--fcas architecture
+--security ring for sub grouping users and machines 
+
+--Need a backend for an org application
+--Security rings: 
+
+--TODO: add web scraper for images
+
+
+
+
+All vending machines need to be created under a group & org
+
+Orgs and groups will be fetched with the user data and only updated when requested
+
+Default is group 0 of org 0. This is for testing. 

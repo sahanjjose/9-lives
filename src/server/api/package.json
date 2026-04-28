@@ -1,0 +1,21 @@
+{
+    "name": "vending-machine-api",
+    "version": "1.0.0",
+    "description": "API for Vending Machine",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "argon2": "^0.41.1",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mqtt": "^5.11.0",
+        "mysql2": "^3.12.0",
+        "node": "^20.19.0",
+        "nodemailer": "^6.10.0",
+        "stripe": "^17.7.0"
+    }
+}

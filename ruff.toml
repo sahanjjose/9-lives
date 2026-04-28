@@ -1,0 +1,32 @@
+line-length = 100
+
+[lint]
+
+select = ["ALL"]
+
+# Rules to be ignored
+ignore = [
+    "ANN002",
+    "D100", 
+    "EM101", 
+    "E701",
+    "TRY003",
+    "FBT001",
+    "FBT002",
+    "EM101",
+    "Q000",
+    "ISC002",
+    "D103",
+    "D102",
+    "D107",
+    "T201",
+    "ANN201",
+    "ANN204",
+    "PLW0602",
+    "PLW0603",
+    "PLR0133",
+    "S101",
+    "INP001",
+    "EM102",
+    "D401",
+]

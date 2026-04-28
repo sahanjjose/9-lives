@@ -1,0 +1,68 @@
+services:
+  db1:
+    image: mysql/mysql-server:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: teamninelives
+      MYSQL_DATABASE: VendingMachineDB
+      MYSQL_ROOT_HOST: '%'
+    volumes:
+      - vendingmachinedat:/var/lib/mysql   # Persistent database storage
+      - ./database/:/docker-entrypoint-initdb.d/  # Run init script on startup
+    ports:
+      - "3333:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 5s
+      retries: 10
+  
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    restart: always
+    ports:
+      - "3306:1883"  # MQTT Broker Port
+      - "9001:9001"  # WebSocket Port (optional, useful for web clients)
+    volumes:
+      - ./mosquitto/config:/mosquitto/config  # Custom config (optional)
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    healthcheck:
+      test: ["CMD", "mosquitto_pub", "-h", "localhost", "-t", "healthcheck", "-m", "ping"]
+      interval: 10s
+      timeout: 5s
+
+  backend:
+    build: ./api
+    restart: always
+    working_dir: /app
+    volumes:
+      - ./api:/app
+      - /app/node_modules
+    ports:
+      - "8080:5000"
+    depends_on:
+      db1:
+        condition: service_healthy
+      mosquitto:
+        condition: service_healthy
+    env_file:
+      - ./api/.env
+    environment:
+      - NODE_PATH=/app/node_modules
+
+  frontend:
+    build: ./frontend
+    restart: always
+    working_dir: /app
+    # volumes:
+      # - ./frontend:/app
+      # - /app/node_modules
+    ports:
+      - "80:8081"
+    depends_on:
+      - backend
+    environment:
+      - NODE_PATH=/app/node_modules
+
+volumes:
+  vendingmachinedat:
