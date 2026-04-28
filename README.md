@@ -9,11 +9,13 @@ My primary contributions:
 
 **Selected as the only team out of 25 invited to present to UW–Madison CDIS faculty.**
 
-<img width="400" height="522" alt="image" src="https://github.com/user-attachments/assets/89cb8808-d95d-438e-9238-74f410bb412a" />
-<img width="534" height="530" alt="image" src="https://github.com/user-attachments/assets/692e0a40-258d-4b55-8b3d-678da417327f" />
-<img width="535" height="645" alt="image" src="https://github.com/user-attachments/assets/32c073ae-c1d9-42c7-bb33-da4fdbc6217a" />
+<p align="center">
+  <img width="250" alt="vending machine front" src="https://github.com/user-attachments/assets/89cb8808-d95d-438e-9238-74f410bb412a" />
+  <img width="250" alt="vending machine screen" src="https://github.com/user-attachments/assets/692e0a40-258d-4b55-8b3d-678da417327f" />
+  <img width="250" alt="vending machine side" src="https://github.com/user-attachments/assets/32c073ae-c1d9-42c7-bb33-da4fdbc6217a" />
+</p>
 
-Watch Demo Here - https://drive.google.com/file/d/1ZExGCSayVf0KXmGnTJOZhaQYRXVQQ96F/view?usp=sharing
+**Watch Demo Here** - https://drive.google.com/file/d/1ZExGCSayVf0KXmGnTJOZhaQYRXVQQ96F/view?usp=sharing
 
 ### Project Abstract
 
