@@ -1,11 +1,20 @@
 # Specification Document
 
-## 9 Lives
+### 9 Lives Team Project — UW–Madison CS506 (Spring 2025)
 
-### CI/CD Status
+Built with William Dwyer, William He, Daniel Thoman, Diego Luis Navarro, and Drew Broch.
 
-![pipeline status](https://git.doit.wisc.edu/cdis/cs/courses/cs506/sp2025/team/T_19/Project_19/badges/main/pipeline.svg)
-![Test Coverage](https://git.doit.wisc.edu/cdis/cs/courses/cs506/sp2025/team/T_19/Project_19/badges/main/coverage.svg)
+My primary contributions:
+- React Native vendor management frontend (user management, vending machine detail screens, API communication layer)
+- Database schema co-design (MySQL ERD, inventory join tables, user-VM assignment model)
+- Physical vending machine glass cutting
+
+**Selected as the only team out of 25 invited to present to UW–Madison CDIS faculty.**
+
+<img width="400" height="522" alt="image" src="https://github.com/user-attachments/assets/89cb8808-d95d-438e-9238-74f410bb412a" />
+<img width="534" height="530" alt="image" src="https://github.com/user-attachments/assets/692e0a40-258d-4b55-8b3d-678da417327f" />
+<img width="535" height="645" alt="image" src="https://github.com/user-attachments/assets/32c073ae-c1d9-42c7-bb33-da4fdbc6217a" />
+
 
 ### Project Abstract
 
@@ -255,6 +264,7 @@ for now, here's what we know:
 - If they are an admin, they can view information about all of the organization's vending machines
 - If they are a maintainer, they can only view information about the organization's vending machines that they have been assigned to (ones they restock) by an admin
 
+<iframe src="https://drive.google.com/file/d/1ZExGCSayVf0KXmGnTJOZhaQYRXVQQ96F/preview" width="640" height="480"></iframe>
 
 ### Standards & Conventions
 
