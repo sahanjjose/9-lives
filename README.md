@@ -1,6 +1,4 @@
-# Specification Document
-
-### 9 Lives Team Project — UW–Madison CS506 (Spring 2025)
+# 9 Lives — Vending Machine System
 
 Built with William Dwyer, William He, Daniel Thoman, Diego Luis Navarro, and Drew Broch.
 
@@ -15,6 +13,7 @@ My primary contributions:
 <img width="534" height="530" alt="image" src="https://github.com/user-attachments/assets/692e0a40-258d-4b55-8b3d-678da417327f" />
 <img width="535" height="645" alt="image" src="https://github.com/user-attachments/assets/32c073ae-c1d9-42c7-bb33-da4fdbc6217a" />
 
+Watch Demo Here - https://drive.google.com/file/d/1ZExGCSayVf0KXmGnTJOZhaQYRXVQQ96F/view?usp=sharing
 
 ### Project Abstract
 
@@ -264,7 +263,6 @@ for now, here's what we know:
 - If they are an admin, they can view information about all of the organization's vending machines
 - If they are a maintainer, they can only view information about the organization's vending machines that they have been assigned to (ones they restock) by an admin
 
-<iframe src="https://drive.google.com/file/d/1ZExGCSayVf0KXmGnTJOZhaQYRXVQQ96F/preview" width="640" height="480"></iframe>
 
 ### Standards & Conventions
 
